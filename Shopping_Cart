@@ -1,0 +1,80 @@
+#Design a simple shopping cart using sublime Text
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebSite</title>
+	<link rel="stylesheet" type="text/css" href="Shopping_Cart_Style.css"> <!-- link css to html-->
+</head>
+<body>
+<header>
+	<span>Ecommerce</span>
+<ul>
+	<li>Home</li>
+	<li>Services</li>
+	<li>Cart</li>
+	<li>About</li>
+	<li>Contact</li>
+</ul>
+</header>
+<main>
+	<p>Wel-Come to our shopping site</p>
+	<a href="https://www.myntra.com/" target=blank>
+		<button>Lets Beggin for shopping</button>
+</main>
+</body>
+</html>
+
+# CSS
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background: linear-gradient(to right,#FF1493,  #ffe8f4); <!-- background color in shade-->
+}
+header{
+	padding: 50px;
+	font-size: 30px;
+	color: white;
+}
+header span{
+	margin-left: 10px;
+}
+header ul{
+	float: right;
+	list-style: none;
+}
+header ul li{
+	display: inline-block;
+	padding: 5px 20px;
+}
+header ul li a{
+	text-decoration: none;
+	color: white;
+}
+header ul li:hover{
+	background-color: black;
+}
+main{
+	text-align: center;
+	padding-top: 180px;
+}
+main p{
+	font-size: 35px;
+	color: white;
+}
+main button{
+	background-color: blanchedalmond;
+	padding: 10px 30px;
+	cursor: pointer;
+	font-size: 25px;
+	border-radius: 10px;
+}
+main button:hover{
+	font-size: 22px;
+}
